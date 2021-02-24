@@ -1,0 +1,33 @@
+h1 {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+#bt-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#dc-login {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: #8a9cfe;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  border: 2px solid #8a9cfe;
+  font-family: Helvetica, sans-serif;
+}
+
+#dc-login:hover {
+  background-color: white;
+  color: #8a9cfe;
+}

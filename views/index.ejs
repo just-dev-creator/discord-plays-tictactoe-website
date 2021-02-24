@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>justCoding TicTacToe | Login to Discord</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="The webview for stats of the Discord plays TicTacToe bot">
+  </head>
+  <body>
+    <img src=<%=imageurl%>>
+    <h1>Hallo, <%=username%>#<%=discriminator%></h1>
+    <p><%
+    if stats.wins === null {
+      %>Wins: 0<%
+    } else {
+      %>Wins: <%=stats.wins%> <%
+    }
+    %></p>
+    <p><%
+    if stats.loses === null {
+      %>Loses: 0<%
+    } else {
+      %>Loses <%=stats.loses%> <%
+    }
+    %>
+    </p>
+  </body>
+</html>
