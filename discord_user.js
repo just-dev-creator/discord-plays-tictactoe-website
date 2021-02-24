@@ -2,8 +2,8 @@ const discord_o2 = require('discord-oauth2')
 
 async function getUserObject(code) {
   discord_client = await new discord_o2({
-    clientId: "811267001238159420",
-    clientSecret: "***REMOVED***",
+    clientId: process.env.CLIENT_ID,
+    clientSecret: CLIENT_SECRET,
     redirectUri: "https://discordplaystictactoewebsite-1.justdevcreator.repl.co/login/",
     version: "v8"
   })
